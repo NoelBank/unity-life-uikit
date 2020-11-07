@@ -1,0 +1,10 @@
+import React from 'react';
+import {{name}} from './{{name}}';
+import { {{name}}Props } from './interfaces';
+
+export default { component: {{name}}, title: '{{name}}' };
+
+const props: {{name}}Props = {};
+
+export const Basic = (props: {{name}}Props) => <{{name}} {...props} />;
+Basic.args = props;
